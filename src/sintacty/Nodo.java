@@ -2,6 +2,6 @@
 package sintacty;
 
 public class Nodo {
-    private Nodo nodoLeft;
-    private Nodo nodoRigth;
+    private Token nodoLeft;
+    private Token nodoRigth;
 }
