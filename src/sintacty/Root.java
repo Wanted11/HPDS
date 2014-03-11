@@ -1,15 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package sintacty;
 
-/**
- *
- * @author Aeros
- */
 public class Root {
+    private Token leftToken;
+    private Token rigthToken;
+
+    public Root(Token leftToken, Token rigthToken) {
+        this.leftToken = leftToken;
+        this.rigthToken = rigthToken;
+    }
+
+    public Token getLeftToken() {
+        return leftToken;
+    }
+
+    public void setLeftToken(Token leftToken) {
+        this.leftToken = leftToken;
+    }
+
+    public Token getRigthToken() {
+        return rigthToken;
+    }
+
+    public void setRigthToken(Token rigthToken) {
+        this.rigthToken = rigthToken;
+    }
     
 }
